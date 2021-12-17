@@ -22,7 +22,7 @@ const Card: FC<CardProps> = ({
         <div style={{
             width, height,
             border: variant === CardVariant.outlined ? '1px solid black' : 'none',
-            background: variant === CardVariant.primary ? 'silver' : ''
+            background: variant === CardVariant.primary ? 'silver' : '',
         }}
         >
             {children}
